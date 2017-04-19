@@ -1,6 +1,5 @@
 # ADDIT
-Imputation tool for missing genotype in model and non-model species
-
+Imputation tool for missing genotype data in model and non-model species
 
 
 Please cite: O. Choudhury, A. Chakrabarty, S. Emrich. Highly Accurate and Efficient Data-Driven Methods For Genotype Imputation. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017
@@ -24,12 +23,11 @@ Example: python Addit_NM.py -i Test_Nonmodel_Missing.txt -o Test_Nonmodel_Impute
 				   
 ADDIT-M Dependencies:
 
-Test_Model_Training.zip has to be unzipped. It contains the txt file.
-The following packages and versions have been tested for ADDIT-M
-
 NumPy (v1.11.3)
 Scikit-Learn (v0.18.1)
 
+Running ADDIT-M:
+Test_Model_Training.zip has to be unzipped. It contains the txt file.
 
 usage: Addit_M.py [-h] -i INPUT -tr TRAIN -o OUTPUT [-w WINDOW]
 
