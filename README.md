@@ -24,6 +24,7 @@ Example: python Addit_NM.py -i Test_Nonmodel_Missing.txt -o Test_Nonmodel_Impute
 				   
 ADDIT-M Dependencies:
 
+Test_Model_Training.zip has to be unzipped. It contains the txt file.
 The following packages and versions have been tested for ADDIT-M
 
 NumPy (v1.11.3)
